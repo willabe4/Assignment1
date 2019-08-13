@@ -1,4 +1,3 @@
-s
 <!DOCTYPE html>
 
 <html>
@@ -8,7 +7,7 @@ s
 <meta charset="utf-8">
 <title>BACKSTORY FORGE</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 
 <body>
@@ -24,7 +23,7 @@ s
 
 <div>
   <p>
-     <a class="btn" href="index.html">TRY AGAIN</a>
+     <a class="btn" href=" {{ url_for('index') }} ">TRY AGAIN</a>
   </p>
 </div>
 
