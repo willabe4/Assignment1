@@ -21,12 +21,18 @@ body{
 }
 .logline{
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 3rem;
   font-family: 'Titillium Web', sans-serif;
   color: #E60B00;
 }
-.info, .info2{
+.info{
   text-align: right;
+  font-size: 1.5rem;
+  color: #400300;
+  font-family: 'Titillium Web', sans-serif;
+}
+.info2{
+  text-align: center;
   font-size: 1.5rem;
   color: #400300;
   font-family: 'Titillium Web', sans-serif;
